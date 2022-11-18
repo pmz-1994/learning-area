@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>video and audio content</title>
+
+  <style>
+    video {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Video and Audio Content</h1>
+
+  <h2>Video</h2>
+  <video controls width="400" height="400" muted preload="auto" poster="poster.png">
+    <source src="rabbit320.mp4" type="video/mp4">
+    <source src="rabbit320.webm" type="video/webm">
+    <track src="subtitles_en.vtt" kind="subtitles" srclang="en">
+    <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+  </video>
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="viper.mp3" type="video/mp3">
+    <source src="viper.ogg" type="video/ogg">
+    <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+  </audio>
+</body>
+
+</html>
