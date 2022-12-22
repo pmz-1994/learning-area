@@ -39,3 +39,32 @@ h1 {
 }
 
 /* Your CSS below here */
+
+.content {
+  background: url(top-image.png) no-repeat;
+  background: no-repeat url(top-image.png) top,
+    no-repeat url(bottom-image.png) bottom,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.2));
+  background-color: white;
+  border-top: 1mm solid rebeccapurple;
+  border-bottom: 1mm solid rebeccapurple;
+}
+
+h1 {
+  line-height: 1.1;
+  /* position: relative; */
+  background-image: url(logo.png);
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px black;
+  /* filter: drop-shadow(3px 3px 3px black); */
+}
+
+/* h1 p {
+  position: absolute;
+  top: 17mm;
+  left: 4mm;
+}
+
+h1 img {
+  filter: drop-shadow(3px 3px 3px black);
+} */
