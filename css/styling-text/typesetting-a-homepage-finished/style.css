@@ -181,10 +181,10 @@ nav li a {
 
 nav li a:focus, nav li a:hover {
   color: white;
-  background: #a66;
+  background-color: #a66;
 }
 
 nav li a:active {
   color: white;
-  background: black;
+  background-color: black;
 }
