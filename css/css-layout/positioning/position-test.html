@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 500px;
+            margin: 0 auto;
+            float: left;
+            position: relative;
+        }
+
+        div {
+            background: aqua;
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .positioned {
+            position: absolute;
+            background: yellow;
+            top: 100%;
+            left: 30px;
+        }
+
+        .floating {
+            float: left;
+            position: relative;
+        }
+    
+        .inner-box {
+            height: 100px;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Absolute positioning</h1>
+
+    <div>I am a basic block level element. My adjacent block level elements sit on new lines below me.</div>
+
+    <div class="positioned">Now I'm absolutely positioned, I'm not playing by the rules any more!</div>
+
+    <div class="floating">We are separated by our margins. Because of margin collapsing, we are separated by the width of one of our
+        margins,
+        not both.
+        <div class="inner-box">
+            This is in the floating box.
+        </div>
+    </div>
+</body>
+
+</html>
