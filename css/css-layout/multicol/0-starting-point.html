@@ -11,6 +11,18 @@
             margin: 2em auto;
             font: .9em/1.2 Arial, Helvetica, sans-serif;
         }
+
+        .container {
+            column-count: 3;
+            column-gap: 20px;
+            column-rule: 4px dotted rgb(79, 185, 227);
+        }
+
+        .spanning {
+            column-span: all;
+            background-color: aquamarine;
+            padding: 1em;
+        }
     </style>
   </head>
 
@@ -25,6 +37,10 @@
             erat volutpat. Suspendisse ac imperdiet turpis. Aenean finibus sollicitudin eros pharetra congue. Duis ornare
             egestas augue ut luctus. Proin blandit quam nec lacus varius commodo et a urna. Ut id ornare felis, eget fermentum
             sapien.</p>
+
+        <h2 class="spanning">
+            Spanning subhead
+        </h2>
 
         <p>Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada ultrices. Phasellus turpis est, posuere
             sit amet dapibus ut, facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam lorem. Vivamus
